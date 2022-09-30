@@ -12,8 +12,9 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.js',
   // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
   images: {
-    loader: 'akamai',
-    path: '',
+    unoptimized: true
+    // loader: 'akamai',
+    // path: '',
   },
   assetPrefix: './',  
 })
