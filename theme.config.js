@@ -1,8 +1,8 @@
 // theme.config.js
 export default {    
-    projectLink: 'https://github.com/shuding/nextra', // GitHub link in the navbar
-    // projectLinkIcon: <Gitlab />, TODO
-    docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
+    projectLink: 'https://github.com/petercuret/SyntropicA', // GitHub link in the navbar
+    // projectLinkIcon: <Gitlab />, TODO    
+    docsRepositoryBase: 'https://github.com/petercuret/SyntropicA/tree/main/pages/documentation', // base URL for the docs repository
     titleSuffix: '– Community',
     nextLinks: true,
     prevLinks: true,
@@ -11,7 +11,7 @@ export default {
     darkMode: false,
     footer: true,
     footerText: `MIT ${new Date().getFullYear()} © SyntropicA`,
-    // footerEditLink: `Edit this page on GitHub`,
+    footerEditLink: `Edit this page on GitHub`,
     logo: (
       <>  
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-gray-800">SyntropicA</span>
