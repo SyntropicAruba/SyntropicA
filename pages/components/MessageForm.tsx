@@ -5,8 +5,8 @@ const MessageForm: NextPage = () => {
         <section id="contact" className="bg-gray-50 dark:bg-gray-900 dark:bg-gray-800 text-gray-800">
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="mx-auto max-w-screen-sm">
-                    <h2 className="text-center mb-2 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">Contact Us</h2>
-                    <p className="text-center mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Feel free to drop us a message</p>
+                    <h2 className="text-center mb-2 mt-1 text-4xl font-extrabold leading-tight text-gray-900 dark:text-white">Contact Us</h2>
+                    <div className="text-center mb-6 max-w-2xl font-light text-gray-600 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Feel free to drop us a message</div>
                     <form action="https://formsubmit.co/your@email.com" method="POST">
                         <div className="mb-6">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">

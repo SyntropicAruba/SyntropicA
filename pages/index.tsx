@@ -34,7 +34,10 @@ const Home: NextPage = () => {
                         <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white text-gray-800">How to plant a Food Forest</h2>
                         <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis purus vel elit fringilla, eget sollicitudin lorem pellentesque. Nullam pretium in justo aliquam ullamcorper. Nam venenatis ut massa nec malesuada. Maecenas sed rutrum elit. </p>
                         <p className="mb-4">Phasellus finibus arcu at nibh congue, et vehicula elit placerat. Integer convallis sapien sit amet leo congue rhoncus.</p>
-                        <a href="/documentation" className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900 no-underline">Manual</a>
+                        <a href="/documentation" className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
+                            Learn more
+                            <svg className="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -55,6 +58,19 @@ const Home: NextPage = () => {
                         <span className="mt-4 lg:mt-10">
                             <Image src="/Amalia01.jpg" className="w-full rounded-lg" width="400" height="533" />
                         </span>                    </div>
+                </div>
+            </section>
+            <section id="join" className="bg-white dark:bg-gray-900">
+                <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+                    <div>
+                        <Image src="/Community.jpeg" width="600" height="450" className="w-full rounded-lg" />
+                    </div>
+                    <div className="font-light text-gray-600 sm:text-lg dark:text-gray-400">
+                        <h2 className="mb-4 mt-1 text-4xl font-extrabold text-gray-900 dark:text-white text-gray-800">Join our Community</h2>
+                        <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent convallis purus vel elit fringilla, eget sollicitudin lorem pellentesque. Nullam pretium in justo aliquam ullamcorper. Nam venenatis ut massa nec malesuada. Maecenas sed rutrum elit. </p>
+                        <p className="mb-4">Phasellus finibus arcu at nibh congue, et vehicula elit placerat. Integer convallis sapien sit amet leo congue rhoncus.</p>
+                        <a href="#" className="no-underline inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900">Join Us</a>
+                    </div>
                 </div>
             </section>
             <MessageForm />
