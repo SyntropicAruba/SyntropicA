@@ -10,6 +10,7 @@ const Navigation: NextPage = () => {
     const menuItems = [
         { title: 'Home', href: '/' },
         { title: 'Education', href: '#education' },
+        { title: 'Join Community', href: '#join' },
         { title: 'Contact Us', href: '#contact' },
     ]
 
