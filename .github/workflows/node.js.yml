@@ -20,7 +20,7 @@ jobs:
           node-version: '14.x'
 
       - name: Installing my packages
-        run: npm ci
+        run: npm install --force
 
       - name: Build my App
         run: npm run build && npm run export && touch ./out/.nojekyll
@@ -29,5 +29,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: feature/add-deployment # The branch the action should deploy to.
+          BRANCH: public # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
