@@ -11,7 +11,8 @@ import React from 'react';
 function MyApp({ Component, pageProps }: AppProps) {
   return <>
     <Component {...pageProps} />
-    <WhatsAppWidget open={false} phoneNumber="+xxxxxxxxx" companyName="SyntropicA" replyTimeText="We'll answer as soon as possible!" message="Hi! How can we help you?" />
+    {/* Uncomment once there's a number */}
+    {/* <WhatsAppWidget open={false} phoneNumber="+xxxxxxxxx" companyName="SyntropicA" replyTimeText="We'll answer as soon as possible!" message="Hi! How can we help you?" /> */}
   </>
 }
 
