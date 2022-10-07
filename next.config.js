@@ -11,9 +11,6 @@ const withNextra = require('nextra')({
   // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
 })
 module.exports = withNextra({
-  env: {
-    contactEmail: 'syntropica@protonmail.com',
-  },  
   images: {    
     loader: 'akamai',
     path: '',

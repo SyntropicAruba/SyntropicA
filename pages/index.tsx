@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                     </div>
                 </div>
             </section>
-            <MessageForm email={process.env.customKey || ''} />
+            <MessageForm email={"syntropica@protonmail.com"} />
             <Footer />
         </div>
     )
