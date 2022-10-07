@@ -17,7 +17,7 @@ function Submitted() {
           <div className="mb-8 max-w-screen-md lg:mb-16 font-light text-gray-600 sm:text-lg dark:text-gray-400">
             <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white text-gray-800">Thanks for your message!</h2>
             <p className="mb-4">We'll get back to you as soon as possible</p>
-            <a href="/" className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900">Back to home</a>
+            <a href="/" className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">Back to home</a>
           </div>
         </div>
       </section>
