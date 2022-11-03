@@ -79,7 +79,7 @@ const Home: NextPage = () => {
                     </div>
                 </div>
             </section>
-            <MessageForm email={"syntropica@protonmail.com"} />
+            <MessageForm email={"8526796d07117307ff97b7005eb6b6b9"} />
             <Footer />
         </div>
     )
