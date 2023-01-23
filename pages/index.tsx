@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                     <div className="mb-8 max-w-screen-md lg:mb-16 font-light text-gray-600 sm:text-lg dark:text-gray-400">
                         <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white text-gray-800">How to Plant a Food Forest</h2>
                         <p className="mb-4">Anyone can create a food forest in their own garden following a few basic principles, explained in our manual!</p>
-                        <p className="mb-4">Eventually an ecosystem will emerge without the need of fertilisation or pesticides. Once the food forest is established it has it's own micro climate, and need little or no watering.</p>
+                        <p className="mb-4">Eventually an ecosystem will emerge without the need for fertilisation or pesticides. Once the food forest is established it has its own micro climate, and needs little or no watering.</p>
                         <p className="mb-4"> By carefully selecting fruits and vegetables, it's possible to plant in multiple layers, optimising photosynthesis and harvest, even on a small patch of land!</p>
                         <a href="/documentation" className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
                             Read manual
