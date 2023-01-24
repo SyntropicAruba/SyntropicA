@@ -26,7 +26,8 @@ const MessageForm = ({ email }: { email: string }) => {
                         </div>
                         <input className="invisible" type="text" name="_honey"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
-                        <input type="hidden" name="_next" value="https://syntropica.co//submitted"></input>
+                        <input type="hidden" name="_subject" value="New Message!"></input>
+                        <input type="hidden" name="_next" value="https://syntropica.co/submitted"></input>
                         <button type="submit" className="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-800 focus:ring-primary-300 dark:focus:ring-primary-900">Send</button>
                     </form>
                 </div>
